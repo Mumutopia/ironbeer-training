@@ -1,4 +1,4 @@
-import "./Home.css"
+import "./Home.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -22,7 +22,11 @@ export default function Home() {
       </Link>
       <Link className="links-container" to="/random">
         <div className="links-img-container">
-          <img className="links-img" src="./img/random-beer.png" alt="random-beer" />
+          <img
+            className="links-img"
+            src="./img/random-beer.png"
+            alt="random-beer"
+          />
         </div>
         <div className="link-description_container">
           <h2>Random Beer</h2>
@@ -36,7 +40,7 @@ export default function Home() {
       </Link>
       <Link className="links-container" to="/newbeer">
         <div className="links-img-container">
-          <img  className="links-img"src="./img/new-beer.png" alt="new-beer" />
+          <img className="links-img" src="./img/new-beer.png" alt="new-beer" />
         </div>
         <div className="link-description_container">
           <h2>New Beer</h2>

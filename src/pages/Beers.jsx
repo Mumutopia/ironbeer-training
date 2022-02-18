@@ -28,17 +28,16 @@ export default function Beers() {
 
   return (
     <div>
-    <div className="search-beer-container">
-
-      <input
-        className="search-beer-input"
-        type="text"
-        placeholder="Search Beer"
-        onChange={(event) => {
-          setSearchText(event.target.value.toLowerCase());
-        }}
-      />
-    </div>
+      <div className="search-beer-container">
+        <input
+          className="search-beer-input"
+          type="text"
+          placeholder="Search Beer"
+          onChange={(event) => {
+            setSearchText(event.target.value.toLowerCase());
+          }}
+        />
+      </div>
       <div className="beer-list">
         {!beers.length ? (
           <p>loading...</p>

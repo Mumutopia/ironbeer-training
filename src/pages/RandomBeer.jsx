@@ -22,7 +22,7 @@ export default function RandomBeer() {
   }, []);
 
   return (
-    <div>
+    <div className="beer-details-container">
       {!beer ? (
         <p>loading...</p>
       ) : (

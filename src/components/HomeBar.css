@@ -1,13 +1,17 @@
-.homebar-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3dc4fc;
-    max-width: 450px;
+.homebar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3dc4fc;
+  text-decoration: none;
 }
 
-.home-logo{
-    width: 20px;
-    height: 20px;
-    margin: 10px;
+.homebar-container h1 {
+  color: white;
+}
+
+.home-logo {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
 }

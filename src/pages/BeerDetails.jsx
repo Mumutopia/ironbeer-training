@@ -1,4 +1,4 @@
-import './BeerDetails.css'
+import "./BeerDetails.css";
 
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
@@ -24,7 +24,7 @@ export default function BeerDetails() {
   }, []);
 
   return (
-    <div>
+    <div className="beer-details-container">
       {!beer ? (
         <p>loading...</p>
       ) : (
@@ -35,11 +35,11 @@ export default function BeerDetails() {
           <h3>{beer.name}</h3>
           <div className="beer-tag-and-date">
             {" "}
-            <span className='beer-tagline'>{beer.tagline}</span>
-            <span className='beer-date'>{beer.first_brewed}</span>
+            <span className="beer-tagline">{beer.tagline}</span>
+            <span className="beer-date">{beer.first_brewed}</span>
           </div>
-          <p className='beer-description'>{beer.description}</p>
-          <span className='beer-contributor'>{beer.contributed_by}</span>
+          <p className="beer-description">{beer.description}</p>
+          <span className="beer-contributor">{beer.contributed_by}</span>
         </div>
       )}
     </div>
