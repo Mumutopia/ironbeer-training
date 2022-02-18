@@ -1,0 +1,109 @@
+.icon  > img {
+    width: 15px;
+    
+}
+
+
+.navigation {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    width: 350px;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    background-color: grey;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.navigation ul li.active a .icon {
+    transform: translateY(-32px);
+}
+
+.navbar-links .text {
+    position: absolute;
+    color: white;
+    font-size: 0.75em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+
+}
+
+.navigation ul li.active a .text{
+opacity: 1;
+transform: translateY(10px);
+
+}
+
+.indicator{
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    z-index: 12;
+    background: red;
+    border-radius: 50%;
+    border:6px solid white;
+    transition:0.5s;
+}
+
+.indicator::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 0 0 white;
+
+}
+
+.indicator::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -10px 0 0 white;
+
+}

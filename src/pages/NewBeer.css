@@ -1,0 +1,38 @@
+.newbeer-container{
+    max-width: 450px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+.form-container > label{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.form-container > input, textarea {
+    height: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.description-input{
+    height: 80px;
+}
+
+.add-newbeer-button{
+    height: 20px;
+    margin-top: 10px;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    background-color: #3dc4fc;
+    cursor: pointer;
+}

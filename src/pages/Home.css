@@ -1,0 +1,27 @@
+.home-container {
+  max-width: 450px;
+}
+
+.links-container {
+  text-decoration: none;
+}
+
+.links-img {
+  max-width: 100%;
+  cursor: default;
+}
+
+.link-description_container {
+  padding: 0px 0px 15px 15px;
+}
+
+.link-description_container > h2 {
+  color: black;
+}
+
+.link-description_container > p {
+  color: black;
+  font-weight: 150;
+  font-style: italic;
+  font-size: 12px;
+}
