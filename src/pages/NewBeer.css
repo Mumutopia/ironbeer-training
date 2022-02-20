@@ -1,6 +1,7 @@
 .newbeer-container {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .form-container {
@@ -35,6 +36,6 @@ textarea {
   color: white;
   border: none;
   border-radius: 15px;
-  background-color: #3dc4fc;
+  background-color: var(--clr);
   cursor: pointer;
 }

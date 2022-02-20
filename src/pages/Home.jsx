@@ -43,7 +43,7 @@ export default function Home() {
           <img className="links-img" src="./img/new-beer.png" alt="new-beer" />
         </div>
         <div className="link-description_container">
-          <h2>New Beer</h2>
+          <h2>Create Beer</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Accusantium possimus assumenda, rem aperiam blanditiis quae maxime

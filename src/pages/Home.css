@@ -11,11 +11,11 @@
   max-width: 30%;
   margin-top: 3%;
   text-decoration: none;
+  cursor: default;
 }
 
 .links-img {
   max-width: 100%;
-  cursor: default;
   border-radius: 15px;
 }
 
@@ -28,11 +28,12 @@
 
 .link-description_container > h2 {
   width: fit-content;
-  background-color: #3dc4fc;
+  background-color: var(--clr);
   color: white;
   padding: 5px 20px;
   font-size: 20px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .link-description_container > h2:hover {
@@ -48,43 +49,3 @@
   margin-top: 10px;
 }
 
-@media all and (max-width: 450px) {
-  /* .home-container {
-    max-width: 450px;
- }
- 
- .links-container {
-   text-decoration: none;
-   
- }
- 
- .links-img {
-   max-width: 100%;
-   cursor: default;
- }
- 
- .link-description_container {
-   padding: 0px 0px 15px 15px;
- }
- 
- .link-description_container > h2 {
-   display: inline;
-   color: blue;
-   text-decoration: underline;
-   padding: 0 5px 5px;
-   border: 1px solid lightgray;
-   border-radius: 15px;
- }
- 
- .link-description_container > h2:hover {
- background-color: lightgrey;
- }
- 
- .link-description_container > p {
-   color: black;
-   font-weight: 150;
-   font-style: italic;
-   font-size: 12px;
-   margin-top: 10px;
- } */
-}

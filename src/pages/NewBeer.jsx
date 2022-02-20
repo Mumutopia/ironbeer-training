@@ -65,6 +65,7 @@ export default function NewBeer() {
         <label htmlFor="">First Brewed</label>
         <input
           type="text"
+          placeholder="mm/yyyy"
           onChange={(evt) =>
             setNewBeer((prevState) => {
               return { ...prevState, first_brewed: evt.target.value };
@@ -80,7 +81,7 @@ export default function NewBeer() {
             })
           }
         />
-        <button className="add-newbeer-button">Add New</button>
+        <button className="add-newbeer-button">Add New Beer</button>
       </form>
     </div>
   );
